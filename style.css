@@ -272,26 +272,29 @@ nav ul li{
         cursor: pointer;
     }
     #previous{
-        font-size: 30px;
+        font-size: 20px;
     }
     #masterPlay{
-        font-size: 30px;
+        font-size: 20px;
     }
     #next{
-        font-size: 30px;
+        font-size: 20px;
     }
     #gif{
-        width: 20px;
+        width: 18px;
     }
     .songItem2{
         width: 50%;
         padding: 10px;
     }
     .homehead {
-        font-size: 25px;
+        font-size: 20px;
     }
     .homepara {
-        font-size: 15px;
+        font-size: 13px;
+    }
+    .need {
+        font-size: 14px;
     }
   }
 
