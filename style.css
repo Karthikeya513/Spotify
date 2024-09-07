@@ -233,6 +233,22 @@ nav ul li{
     body {
       background-color: rgb(11, 13, 12);
     }
+    .sidebar {
+        width: 30%;
+    }
+    .mainhead {
+        font-size: 20px;
+    }
+    .brand {
+        display: none;
+    }
+    .container {
+        width: 70%;
+        padding: 5px;
+    }
+    .App__quick-link {
+        width: 60%;
+    }
     .songInfo {
       left: 0%;
       position: sticky;
