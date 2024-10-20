@@ -11,6 +11,14 @@ let songItems = Array.from(document.getElementsByClassName('songItem'));
 let searchel = document.getElementById("searchInput");
 let main=document.getElementById("maincon");
 let sidebar=document.getElementById("Sidebar");
+let firstspan=document.getElementById("span1")
+let secspan=document.getElementById("span2")
+let thirdspan=document.getElementById("span3")
+let fourspan=document.getElementById("span4")
+let fivespan=document.getElementById("span5")
+let Homepage=document.getElementById("Homepage")
+let Librarypage=document.getElementById("Librarypage")
+let homepage=document.getElementById("homepage");
 
 let songs = [
     {id:1,songName: "Bhairava", filePath: "songs/1.mp3", coverPath: "https://c.saavncdn.com/509/Bhairava-Anthem-From-Kalki-2898-Ad-Telugu-Telugu-2024-20240616063600-500x500.jpg"},
@@ -32,6 +40,35 @@ songItems.forEach((element, i)=>{
     element.getElementsByClassName("songName")[0].innerText = songs[i].songName; 
 })
 
+firstspan.addEventListener("click", ()=>{
+    Homepage.classList.add("allright");
+    Librarypage.classList.add("allright");
+})
+
+secspan.addEventListener("click", ()=>{
+    Homepage.classList.add("allright");
+    Librarypage.classList.add("allright");
+})
+
+thirdspan.addEventListener("click", ()=>{
+    Homepage.classList.add("allright");
+    Librarypage.classList.add("allright");
+})
+
+fourspan.addEventListener("click", ()=>{
+    Homepage.classList.add("allright");
+    Librarypage.classList.add("allright");
+})
+
+fivespan.addEventListener("click", ()=>{
+    Homepage.classList.add("allright");
+    Librarypage.classList.add("allright");
+})
+
+homepage.addEventListener("click", ()=>{
+    Homepage.classList.remove("allright");
+    Librarypage.classList.remove("allright");
+})
 
 
 // Handle play/pause click
